@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio Site
+
+Welcome to my personal portfolio site! This project showcases my skills, achievements, and interests through a modern, visually rich, and responsive design. Built with Next.js and React, it features smooth animations, scroll-linked navigation, and a dark-themed sidebar with glowing text effects.
+
+## Features
+
+- **Dark-themed Sidebar Navigation**: Always in dark mode, with glowing text effects for active items.
+- **Scroll-linked Sections**: Seamless navigation between sections.
+- **Responsive Design**: Optimized for all screen sizes.
+- **Achievements and Publications**: Highlighting key milestones and works.
+- **Tech Stack and Interests**: Showcasing my expertise and hobbies.
+- **Contact Form**: Easy way to get in touch.
+
+## Deployment
+
+This portfolio is configured for easy deployment on Netlify. Simply clone the repository, install dependencies, and deploy using Netlify's platform.
 
 ## Getting Started
 
-First, run the development server:
+To run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site locally.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**: Framework for React applications.
+- **React**: Library for building user interfaces.
+- **Netlify**: Hosting platform for modern web projects.
+- **CSS Modules**: Styling components with scoped CSS.
 
-## Learn More
+## Contributions
 
-To learn more about Next.js, take a look at the following resources:
+Feedback and contributions are welcome! Feel free to fork the repository and submit pull requests.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy on Netlify
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To deploy this project on Netlify, follow these steps:
 
-## Deploy on Vercel
+1. **Sign up or log in to Netlify**: Visit [Netlify](https://www.netlify.com/) and create an account if you don't already have one.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Create a new site**: Click on "Add new site" and choose "Import an existing project".
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Connect your Git repository**: Select your Git provider (e.g., GitHub) and connect your repository containing this project.
+
+4. **Configure build settings**:
+   - **Build command**: `npm run build`
+   - **Publish directory**: `out`
+
+5. **Deploy**: Click "Deploy site" and wait for the deployment process to complete.
+
+6. **Preview your site**: Once deployed, Netlify will provide a unique URL for your site. You can also set up a custom domain if needed.
+
+For more details, check out the [Netlify deployment documentation](https://docs.netlify.com/).
