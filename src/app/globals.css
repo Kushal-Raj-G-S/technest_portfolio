@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+:root {
+  --background: #041427;
+  --foreground: #ededed;
+}
+
+/* Base styles */
+body {
+  font-family: 'Geist', 'Inter', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  letter-spacing: 0.01em;
+  font-feature-settings: "ss01" on, "ss02" on, "cv01" on;
+  background-color: #126fe1 !important;
+  color: #ffffff !important;
+}
+
+/* Dark mode styles */
+body {
+  background-color: #0a67d8 !important;
+  color: #ffffff !important;
+}
+
+/* Text glow effect for active navigation */
+.text-glow-cyan {
+  text-shadow: 0 0 10px rgba(6, 182, 212, 0.8), 0 0 25px rgba(6, 182, 212, 0.5);
+  transition: text-shadow 0.3s ease-in-out;
+  letter-spacing: 0.03em;
+  position: relative;
+}
+
+/* Add a small indicator dot to active items */
+.text-glow-cyan::before {
+  content: '•';
+  position: absolute;
+  left: -3px;
+  color: rgb(6, 182, 212);
+}
+
+/* Shadow glow effect for icons */
+.hover\:shadow-glow:hover {
+  filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.6));
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Geist', 'Inter', 'Segoe UI', 'Roboto', 'Poppins', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+/* Light theme heading styles */
+body.bg-white h1, 
+body.bg-white h2, 
+body.bg-white h3, 
+body.bg-white h4, 
+body.bg-white h5, 
+body.bg-white h6 {
+  color: #171717;
+  text-shadow: none;
+}
+
+/* Dark theme heading styles */
+body.bg-\[\#041427\] h1, 
+body.bg-\[\#041427\] h2, 
+body.bg-\[\#041427\] h3, 
+body.bg-\[\#041427\] h4, 
+body.bg-\[\#041427\] h5, 
+body.bg-\[\#041427\] h6 {
+  color: #00eaff;
+  text-shadow: 0 0 8px #00eaff99, 0 0 16px #1e40af66;
+}
+
+p, li, span, div, a, td, th, label, input, textarea, button {
+  font-family: 'Geist', 'Inter', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+a, .text-link {
+  color: #00eaff;
+  transition: color 0.2s;
+}
+a:hover, .text-link:hover {
+  color: #fff;
+  text-shadow: 0 0 8px #00eaffcc;
+}
+
+.neon-glow {
+  box-shadow: 0 0 16px 2px #00eaff99, 0 0 32px 4px #1e40af44;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00eaff44;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a1626;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
