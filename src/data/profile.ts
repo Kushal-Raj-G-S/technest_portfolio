@@ -74,9 +74,9 @@ export const profile = {
   experience: [
     {
       role: "Full-Stack Intern",
-      company: "TechNest",
+      company: "TechNest Intern",
       period: "June 2025 - August 2025",
-      description: "Working on AI-driven web applications and interactive 3D experiences."
+      description: "Working on Full Stack AI-driven web applications and interactive 3D experiences."
     },
      {
       role: "IoT Intern",
